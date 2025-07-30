@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Projeto DIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cabeçalho">
+            <h1 id="inicio">Projeto DIO - Desenvolvendo minha primeira Web Page</h1>
+            <hr />
+        </div>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#client">Comunicação Client-Server</a></li>
+            <li><a href="#estrutura">Estrutura HTML</a></li>
+            <li><a href="#formulários">Formulários/Html-Sêmantico</a></li>
+            <li><a href="#Links">Links</a></li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <h2 id="client">Comunicação Client-Server</h2>
+            <p>A comunicação <i>cliente-servidor</i> é um modelo de troca de dados em que dois lados têm papéis definidos: </p>
+        <ul>
+            <li><strong>Cliente:</strong> O Cliente faz as requisições, que Podem ser um acesso ao navegador, aplicativo ou dispositivo que quer acessar, ou até um ou informação. </li>
+            <li><strong>Servidor:</strong> O Servidor responde às requisições do cliente, geralmente entregando dados, realizando tarefas ou guardando informações.</li>
+        </ul>
+            <h3>Características Principais:</h3>
+        <ul>
+            <li><strong>Assincronismo:</strong> o cliente e o servidor podem funcionar em máquinas diferentes.</li>
+            <li><strong>Escalabilidade:</strong> vários clientes podem se conectar ao mesmo servidor sem problemas. </li>
+            <li><strong>Modularidade:</strong> o cliente não precisa saber como o servidor faz as coisas, só que ele responde corretamente. </li>
+        </ul>
+        <button><a href="#inicio">voltar</a></button>
+        </div>
+        <div>    
+            <h2 id="estrutura">Estrutura HTML</h2>
+            <ul>
+                <li><strong>!DOCTYPE: </strong>Define o tipo do documento, nesse caso (HTML5).</li>
+                <li><strong>HTML: </strong>Contém o conteúdo da página.</li>
+                <li><strong>Head: </strong>Contém informações como titulo, meta, tags e links de estilo.</li>
+                <li><strong>Title: </strong>Define o título que aparece na aba do navegador.</li>
+                <li><strong>Body: </strong>É onde está o conteúdo visível ao usuário ex:(textos, imagens).</li>
+                <li><strong>h1/h6: </strong>São tags usadas para cabeçalhos e Títulos.</li>
+                <li><strong>p: </strong>Tag usada para paragrafos.</li>
+                <li><strong>a: </strong>Tag usada para links de outras páginas ou sites.</li>
+            </ul>
+        </div>
+        <div id="formulários">
+            <h3 class="form">Formulários</h3>
+            <p><strong><i>Formulários</i></strong> permitem coletar dados dos usuários, como nome, e-mail, senha, preferências, mensagens, entre outros. Eles são essenciais em cadastros, pesquisas, login e contato.</p>
+            <p>Os Tipos mais comuns de inputs, usados no formulário são:</p>
+            <ul>
+                <li><strong>type="password" - </strong>cria um campo para senhas</li>
+                <li><strong>type="radio" - </strong>cria uma caixa de seleção, de uma unica seleção possivel.</li>
+                <li><strong>type="checkbox" - </strong>cria uma caixa de seleção de multipla escolha.</li>
+                <li><strong>type="file" - </strong>local para enviar arquivos.</li>
+                <li><strong>type="date" - </strong>campo de seleção de Data.</li>
+            </ul> 
+            <button><a href="#inicio">voltar</a></button>
+        </div>
+        <div>
+            <h3 class="semântico"><strong>Html Sêmantico</strong></h3>
+            <p><strong><i>HTML semântico</i></strong> é uma forma de escrever código HTML utilizando tags que descrevem claramente o significado do conteúdo.</p>
+            <h4>Principais tags:</h4>
+            <ul>
+                <li><strong>Header - </strong>Cabeçalho da Página ou seção</li>
+                <li><strong>Nav - </strong>Área de navegação (Ex. menu, links)</li>
+                <li><strong>Main - </strong>Conteúdo principal da página</li>
+                <li><strong>Section - </strong>Seção de conteúdo</li>
+                <li><strong>Article - </strong>Seção para (posts, notícias, artigos)</li>
+                <li><strong>Footer - </strong>Rodapé da página</li>
+                <li><strong>Figure e Figcaption - </strong>usados para colocar legendas nas imagens</li>
+            </ul>   
+        </div>
+    </main>
+    <footer class="rodapé" id="Links">
+        <h2>Links de referências</h2>
+        <ul>
+            <li><a href="#">http://dio.me</a></li>
+            <li><a href="#">http://w3c.org</a></li>
+        </ul>
+        <button><a href="#inicio">Inicio</a></button> 
+    </footer>
+</body>
+</html>

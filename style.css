@@ -1,0 +1,13 @@
+.cabeçalho, .rodapé {
+    background: rgb(0, 191, 255);
+}
+
+#client, #estrutura, .form, .semântico {
+    background: lightblue;
+}
+
+button {
+    background: lightgray;
+    border: solid 1px darkblue;
+    border-radius: 5px;
+}
